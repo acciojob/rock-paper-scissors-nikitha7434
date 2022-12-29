@@ -40,4 +40,4 @@ Let's build the game of <b>Rock, Paper and Scissors!</b> (Learn game <a href='ht
 
  7. Use “game-result” attribute-value which will have values “WON”, “TIE” or “LOSE” to show the result of the game.
  
-8. Create a <code>window.computerChoose</code> property denoting computer choice having value in [0, 1, 2] in each round for ["ROCK", "PAPER", "SCISSORS"] respectively.
+8. Create a <code>wghgindow.computerChoose</code> property denoting computer choice having value in [0, 1, 2] in each round for ["ROCK", "PAPER", "SCISSORS"] respectively.
