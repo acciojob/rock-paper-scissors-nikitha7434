@@ -24,7 +24,7 @@ let round=0;
 btn.addEventListener('click',(e) => {
     let userchoices =document.getElementById("game-number").value;
      if(userchoices > 0){
-        //  document.getElementById("game-container").style.display="block";
+       
          round =userchoices;
          remainround.innerHTML = round;
      }
@@ -110,7 +110,7 @@ else if(getuseroption == 'ROCK'){
     let finalwinner = document.getElementById('game-result');
 
     if(round == 0){
-        // document.getElementById("game-container").style.display="none";
+        remainround.innerHTML = round;
 
         if(userscore > compscore){
             alert("Game is over");
